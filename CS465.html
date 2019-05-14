@@ -1,9 +1,76 @@
 <!DOCTYPE html>
-<head>
-    <title>HTML #2</title>
-</head>
-<body>
-    lorem ipsum
-    <br>
-    dolor sit amet
-</body>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css" />
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+		<style type="text/css">
+			.navbar {
+				margin-bottom:30px;
+			}
+
+
+		</style>
+	</head>
+	<body>
+		<!-- this exercise looks like more work than it actually is, since you can copy and paste a majority of it. you might ask yourself in this regard why there is a gap between the navbar and the jumbotron. this is because the navbar is set to static and not to fixed. -->
+		<nav class="navbar navbar-expand-md navbar-dark static-top bg-dark">
+			<a class="navbar-brand" href="#">Portfolio</a>
+			<div class="navbar-collapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active"><a class="nav-link" href="#">Projects</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/connor-bettermann-1b6aa4183">GitHub</a></li>
+					</ul>
+				</form>
+			</div>
+		</nav>
+
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Projects</h1>
+				<p>A collection of projects I have developed.</p>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h2>xv6 Operating System</h2>
+					<p>Modifications made to the xv6 Operating Sysytem</p>
+					<p>
+						<a class="btn btn-secondary" href="https://github.com/connorbettermann/xv6" role="button">Source Code »</a>
+					</p>
+				</div>
+                <div class="col-md-4">
+					<h2>Sorting Algorithms</h2>
+					<p>Python application that tests the runtime efficiency of various sorting algorithms.</p>
+					<p>
+						<a class="btn btn-secondary" href="https://github.com/connorbettermann/SortingAlgorithms" role="button">Source Code »</a>
+					</p>
+                </div>
+                <div class="col-md-4">
+					<h2>ChatApp</h2>
+					ChatApp made using Java and JavaFX. Includes both Client and Server side applications.</p>
+					<p>
+						<a class="btn btn-secondary" href="https://github.com/connorbettermann/ChatApp" role="button">Source Code »</a>
+					</p>
+				</div>
+                
+			</div>
+			<hr>
+		</div>
+		<footer class="container">
+			<p>some message in the footer</p>
+		</footer>
+	</body>
+</html>
