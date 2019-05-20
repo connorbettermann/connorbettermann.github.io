@@ -1,13 +1,7 @@
+CS465 Intial Commit Date:
+	May 13, 2019
+	
 
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+CS465 Portfolio Project Files:
+	CS465.html
+	about.html
